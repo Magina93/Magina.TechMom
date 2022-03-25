@@ -1,0 +1,79 @@
+
+body{
+    background: #b2cc24;
+    font-family: poppins;
+
+}
+.section-header{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+.section-header p{
+    font-size: 18px;
+}
+.single-service{
+    border: 1px solid;
+    text-align: center;
+    background: #fff;
+
+}
+.service-bg{
+    height: 200px;
+    position: relative;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    width: 20%;
+}
+.p{
+    display: flex;
+    justify-content: center;
+
+}
+.service-bg-service-bg-1{
+    background: #fff;
+    -webkit-transition: .9s;
+    -o-transition: .9s;
+    transition: .9s;
+    color: #b2cc24;
+}
+.service-bg h2{
+    color: #b2cc24;
+    background: #fff;
+    border: 1px solid #b2cc24; 
+    font-size: 17px;
+    text-align: center;
+    font-weight: 700;
+    padding: 15px;
+    position: absolute;
+    left: 8%;
+    width: 84%;
+    margin: 0;
+    bottom: -25px;
+    border-radius: 50px;
+    letter-spacing: 2px;
+}
+.single-service:hover .service-bg h2{
+    background: #fff;
+    -webkit-transition: .9s;
+    -o-transition: .9s;
+    transition: .9s;
+    color: #b2cc24;
+}
+.service-text{
+    display: flex;
+    justify-content: left;
+    padding: 50px 30px 20px;
+    font-size: 15px;
+    font-weight: 400;
+    text-indent: 100px;
+}
+.service-text p:last-child{
+    margin: 0;
+    line-height: 1.8;
+}
